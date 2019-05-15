@@ -48,15 +48,15 @@ section {
     height: 90vh;
     text-align: center;
     padding: 3rem;
-    background-image: url("../images/deskpic.jpg");
+    background-image: url("../images/Bucaramanga.jpg");
     background-position: center center;
     background-size: cover;
 }
-/*
+
 header{
 
 }
-*/
+
 /*
 ul{
     background-color: #663399;
@@ -151,7 +151,7 @@ ul{
 }
 
 .image-1 {
-    background-image: url("../images/menuhamburgesa.png");
+    background-image: url("../images/DaveSite.PNG");
 }
 
 .image-2 {
