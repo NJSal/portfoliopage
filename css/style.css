@@ -26,6 +26,7 @@ body {
     height: 100px;
 }
 */
+/*
 .fullborder {
     border: black solid thin;
 }
@@ -74,13 +75,14 @@ body {
     font-size: 13px;
     line-height: 23px;
 }
+*/
 /*
 #sidebar {
     width: 367px;
     float: right;
 }
 */
-
+/*
 #footer {
     clear: both;
 }
@@ -185,7 +187,8 @@ img{
     float: left;
     clear: both;
 }
-
+*/
+/*
 .topnav {
     overflow: hidden;
     background-color: #444;
@@ -214,3 +217,4 @@ img{
 .topnav-right {
     float: right;
 }
+*/
