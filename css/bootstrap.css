@@ -4306,8 +4306,8 @@ input[type="button"].btn-block {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 3.0rem;
+    padding-left: 3.0rem;
   }
   .navbar-expand-md > .container,
   .navbar-expand-md > .container-fluid {
