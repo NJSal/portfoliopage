@@ -7,23 +7,65 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: darkblue;
 }
+#content {
+    width: 911px;
+    height: 1110px;
+    padding-right: 24px;
+    padding-left: 24px;
+    float: left;
+    font-size: 16px;
+    line-height: 27px;
+}
 
-h1, h2{
+h1{
+    display:inline-flex;flex-direction:row;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 42px;
     line-height: 200px;
     letter-spacing: 2px;
-    text-align: center;
+    /*text-align: center;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    background-image: url("../images/bottomimage.png");
 }
 
 
 
 
-h3, h4{
+#content h2{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 33px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+#content h3{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+#content h4{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+#content h5{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 33px;
+    text-align: left;
     letter-spacing: 2px;
 }
 
@@ -80,9 +122,9 @@ ul{
 */
 
 
-
+/*
 @media screen and (min-width: 700px) {
-    /*needed for mobile*/
+
     .image {
         width: 20%;
     }
@@ -93,6 +135,7 @@ ul{
         padding-top: 20%;
     }
 }
+*/
 /*needed for mobile*/
 /*
 @media screen and (max-width: 700px) {
@@ -153,7 +196,7 @@ ul{
 .intro {
     text-align: center;
 }
-
+/*
 .image-row {
     margin-top: 3rem;
 }
@@ -165,7 +208,8 @@ ul{
     background-size: cover;
     width: 20%;
 }
-
+*/
+/*
 .image1 {
     background-image: url("../images/webstormicon.jpg");
 }
@@ -178,6 +222,7 @@ ul{
     background-image: url("../images/git-logo1.png");
 
 }
+*/
 
 li a:hover{
     background-color: #ff4500;
@@ -187,11 +232,11 @@ li a:hover{
     background-color: #D2DBE0;
     text-align: center;
 }
-
+/*
 .about h4 {
     margin-bottom: 2.5rem;
 }
-
+*/
 .about p {
     text-align: left;
 }
@@ -211,8 +256,15 @@ footer {
     text-align: center;
     padding: 1.5rem 0;
 }
-
+/*
 footer h4 {
     margin: 0;
     line-height: 1;
+}
+*/
+img{
+    height: 200px;
+    width: 300px;
+    padding-right: 18px;            /*newly added*/
+    float: left;
 }
