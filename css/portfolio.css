@@ -1,6 +1,4 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     margin: 0;
@@ -8,8 +6,8 @@ body {
     color: darkblue;
 }
 #content {
-    width: 911px;
-    height: 1110px;
+    width: 1200px;
+    height: 1100px;
     padding-right: 24px;
     padding-left: 24px;
     float: left;
@@ -17,21 +15,36 @@ body {
     line-height: 27px;
 }
 
-h1{
-    display:inline-flex;flex-direction:row;
+.fullborder{
+    border: black solid thin;
+}
+
+#content h1{
+    /*display:flex;*/
+
+
+    /*
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 42px;
-    line-height: 200px;
+    line-height: 400px;
     letter-spacing: 2px;
     /*text-align: center;*/
+
+    /*
+
     justify-content: center;
     align-items: center;
-    min-height: 5vh;
+    min-height: 10vh;
+    */
+
+
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    line-height: 80px;
+    background-image: url("../images/bottomimage.png");
     background-position: center center;
     background-size: cover;
-    width:100%;
-    background-image: url("../images/bottomimage.png");
 }
 
 
@@ -48,7 +61,7 @@ h1{
 #content h3{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 33px;
+    font-size: 28px;
     text-align: left;
     letter-spacing: 2px;
 }
@@ -56,34 +69,33 @@ h1{
 #content h4{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 33px;
+    font-size: 28px;
     text-align: left;
+    line-height: 52px;
     letter-spacing: 2px;
+
 }
 
 #content h5{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
-    font-size: 33px;
+    font-size: 28px;
     text-align: left;
+    line-height: 52px;
     letter-spacing: 2px;
 }
 
 
-p {
-    line-height: 2;
-    letter-spacing: 1px;
-    margin-bottom: 2rem;
-}
 
 section {
     padding: 4rem 0;
 }
 
 .wrapper {
-    width: 90%;
-    max-width: 1100px;
-    margin: 0 auto;
+    width: 1200px;
+    height: 1335px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media screen and (min-width: 700px) {
@@ -105,68 +117,6 @@ section {
     background-size: cover;
 }
 
-/*
-
-background-repeat: no-repeat;
-background-size: cover;
-line-height: 40px;
-inline-size: 959px;
-/*line-height: 430px;*/          /*updated 5/4/19*/                           /*originally 363*/
-
-
-/*
-ul{
-    background-color: #663399;
-    color: #062c33;
-}
-*/
-
-
-/*
-@media screen and (min-width: 700px) {
-
-    .image {
-        width: 20%;
-    }
-}
-
-@media screen and (min-width: 700px) {
-    .image {
-        padding-top: 20%;
-    }
-}
-*/
-/*needed for mobile*/
-/*
-@media screen and (max-width: 700px) {
-
-    nav {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: fixed;
-        top: 0;
-        right: 0;
-        height: 100vh;
-        width: 100vw;
-        opacity: 0;
-        transition: opacity 300ms ease;
-        background-color: white;
-        pointer-events: none;
-    }
-
-    nav.open {
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    nav a {
-        font-size: 24px;
-        line-height: 1.5;
-    }
-
-}
-*/
 @media screen and (min-width: 700px) {                  /*nav-bar reformatting*/
     nav {
         display: block;
@@ -175,12 +125,7 @@ ul{
     nav li {
         display: inline-block;
     }
-    /*
-        .menu,
-        .close {
-            display: none;
-        }
-    */
+
 }
 
 @media screen and (min-width: 1024px) {               /*nav-bar reformatting for laptop*/
@@ -190,57 +135,25 @@ ul{
 }
 
 
-/*
- * Intro
- */
+
 .intro {
     text-align: center;
 }
-/*
-.image-row {
-    margin-top: 3rem;
-}
 
-.image {
-    padding-top:20%;
-    display: inline-block;
-    background-position: center center;
-    background-size: cover;
-    width: 20%;
-}
-*/
-/*
-.image1 {
-    background-image: url("../images/webstormicon.jpg");
-}
-
-.image2 {
-    background-image: url("../images/linuxcommands.jpg");
-}
-
-.image3 {
-    background-image: url("../images/git-logo1.png");
-
-}
-*/
 
 li a:hover{
     background-color: #ff4500;
 }
-
+/*
 .about {
     background-color: #D2DBE0;
     text-align: center;
 }
-/*
-.about h4 {
-    margin-bottom: 2.5rem;
-}
-*/
+
 .about p {
     text-align: left;
 }
-
+*/
 
 .call-to-action {                                           /*footer information*/
     display: flex;
@@ -262,9 +175,15 @@ footer h4 {
     line-height: 1;
 }
 */
+
+p{
+    padding-bottom: 35px;
+}
+
 img{
     height: 200px;
-    width: 300px;
+    width: 200px;
     padding-right: 18px;            /*newly added*/
     float: left;
+    clear: both;
 }
